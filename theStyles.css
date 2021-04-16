@@ -1,0 +1,128 @@
+.nav-container {
+    padding : 25px;
+    margin-top: 2vh;
+    display: flex;
+    width: 100vw;
+}
+.nav-button {
+    margin-right: 2.75vw;
+    margin-left: 2.75vw;
+    margin-top: 1vw;
+    padding : 15px;
+    width : 12.75vw;
+    height : 50px;
+    background-color: cornsilk;
+    border: 2px solid whitesmoke;
+    border-radius: 2px;
+}
+.nav-button:hover{
+    background-color: goldenrod;
+    border: 2px solid yellow;
+}
+.nav-button:active{
+    background-color: orangered;
+    border: 2px solid goldenrod;
+}
+body{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    background-image: url("assets/websiteBG.jpg");
+    background-size: 100vw 100vh;
+    background-color: rgb(26, 25, 25);
+    background-repeat: no-repeat;
+    padding:  0px;
+    margin:  0px;
+    overflow: hidden;
+}
+.content-container{
+    position: absolute;
+    top: 10vw;
+    width: 90vw;
+    height: 90vh;
+    align-content: center;
+    background-image: url("assets/websiteScreen.jpg");
+    background-repeat: no-repeat;
+    background-size: 90vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+.content{
+    position: absolute;
+    width: 70vw;
+    height: 60vh;
+    align-content: center;
+    color: green;
+    font-family: 'Courier New', Courier;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top:  10vh;
+    
+}
+.home-plug{
+    position: absolute;
+    top: 11vh;
+    left: 6vw;
+}
+.java-plug{
+    position: absolute;
+    top: 11vh;
+    left: 24.5vw;
+}
+.web-plug{
+    position: absolute;
+    top: 11vh;
+    left: 43.5vw;
+}
+.games-plug{
+    position: absolute;
+    top: 11vh;
+    left: 62vw;
+}
+.about-plug{
+    position: absolute;
+    top: 11vh;
+    left: 81vw;
+}
+.plug-contact{
+    position: absolute;
+    max-width: 14vw;
+    
+}
+.plug-body{
+    position: absolute;
+    max-width: 14vw;
+    
+}
+.plug-label{
+    color: rgb(34, 33, 33);
+    position:absolute;
+    font-size: 35px;
+    font-family: 'Courier New', Courier;
+    font-weight: bold;
+    top: 0vw;
+    left: 0.6vw;
+    width: 12vw;
+    height: 8vw;
+    text-align:center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.plug-label:hover{
+    color: goldenrod;
+}
+.plug-label:active{
+    color:red;
+}
+#robot {
+    position:absolute;
+    
+    top: 7vw;
+    left: 92vw;
+    width: 12vw;
+    height: 12vw;
+}
